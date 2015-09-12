@@ -582,6 +582,10 @@
     <Content Include="js\jquery-1.9.1.js" />
     <Content Include="js\jquery-1.9.1.min.js" />
     <Content Include="paintings-1.html" />
+    <Content Include="paintings-2.html" />
+    <Content Include="paintings-3.html" />
+    <Content Include="paintings-4.html" />
+    <Content Include="paintings-5.html" />
     <Content Include="paintings.html" />
     <Content Include="privacy.html" />
     <Content Include="reviews.html" />
