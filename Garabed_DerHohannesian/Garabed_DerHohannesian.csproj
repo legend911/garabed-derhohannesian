@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2515522-CFDB-48D4-94CA-08F813C0D5D6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Garabed_DerHohannesian</RootNamespace>
+    <AssemblyName>Garabed_DerHohannesian</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="blog.html" />
+    <Content Include="contact.html" />
+    <Content Include="contact.php" />
+    <Content Include="contact1.php" />
+    <Content Include="disclaimer.html" />
+    <Content Include="images\slider\Img0058.jpg" />
+    <Content Include="images\slider\Img0069.jpg" />
+    <Content Include="images\slider\Img0071.jpg" />
+    <Content Include="images\slider\Img0111.jpg" />
+    <Content Include="images\slider\Img0124.jpg" />
+    <Content Include="images\slider\Img0127.jpg" />
+    <Content Include="images\slider\Img0155.jpg" />
+    <Content Include="images\slider\Img0262.jpg" />
+    <Content Include="images\slider\Img0273.jpg" />
+    <Content Include="images\slider\Img0301.jpg" />
+    <Content Include="packages.config" />
+    <Content Include="js\jquery-1.9.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="biography.html" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\colors.css" />
+    <Content Include="css\img.css" />
+    <Content Include="css\padding.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\Img0056.jpg" />
+    <Content Include="images\Img0057.jpg" />
+    <Content Include="images\Img0058.jpg" />
+    <Content Include="images\Img0059.jpg" />
+    <Content Include="images\Img0060.jpg" />
+    <Content Include="images\Img0061.jpg" />
+    <Content Include="images\Img0062.jpg" />
+    <Content Include="images\Img0064.jpg" />
+    <Content Include="images\Img0065.jpg" />
+    <Content Include="images\Img0066.jpg" />
+    <Content Include="images\Img0067.jpg" />
+    <Content Include="images\Img0068.jpg" />
+    <Content Include="images\Img0069.jpg" />
+    <Content Include="images\Img0070.jpg" />
+    <Content Include="images\Img0071.jpg" />
+    <Content Include="images\Img0072.jpg" />
+    <Content Include="images\Img0073.jpg" />
+    <Content Include="images\Img0074.jpg" />
+    <Content Include="images\Img0075.jpg" />
+    <Content Include="images\Img0076.jpg" />
+    <Content Include="images\Img0077.jpg" />
+    <Content Include="images\Img0078.jpg" />
+    <Content Include="images\Img0079.jpg" />
+    <Content Include="images\Img0080.jpg" />
+    <Content Include="images\Img0081.jpg" />
+    <Content Include="images\Img0082.jpg" />
+    <Content Include="images\Img0083.jpg" />
+    <Content Include="images\Img0084.jpg" />
+    <Content Include="images\Img0085.jpg" />
+    <Content Include="images\Img0086.jpg" />
+    <Content Include="images\Img0087.jpg" />
+    <Content Include="images\Img0088.jpg" />
+    <Content Include="images\Img0089.jpg" />
+    <Content Include="images\Img0090.jpg" />
+    <Content Include="images\Img0091.jpg" />
+    <Content Include="images\Img0092.jpg" />
+    <Content Include="images\Img0093.jpg" />
+    <Content Include="images\Img0094.jpg" />
+    <Content Include="images\Img0095.jpg" />
+    <Content Include="images\Img0096.jpg" />
+    <Content Include="images\Img0097.jpg" />
+    <Content Include="images\Img0098.jpg" />
+    <Content Include="images\Img0099.jpg" />
+    <Content Include="images\Img0100.jpg" />
+    <Content Include="images\Img0101.jpg" />
+    <Content Include="images\Img0102.jpg" />
+    <Content Include="images\Img0103.jpg" />
+    <Content Include="images\Img0104.jpg" />
+    <Content Include="images\Img0105.jpg" />
+    <Content Include="images\Img0106.jpg" />
+    <Content Include="images\Img0107.jpg" />
+    <Content Include="images\Img0108.jpg" />
+    <Content Include="images\Img0109.jpg" />
+    <Content Include="images\Img0110.jpg" />
+    <Content Include="images\Img0111.jpg" />
+    <Content Include="images\Img0112.jpg" />
+    <Content Include="images\Img0113.jpg" />
+    <Content Include="images\Img0114.jpg" />
+    <Content Include="images\Img0115.jpg" />
+    <Content Include="images\Img0116.jpg" />
+    <Content Include="images\Img0117.jpg" />
+    <Content Include="images\Img0118.jpg" />
+    <Content Include="images\Img0119.jpg" />
+    <Content Include="images\Img0120.jpg" />
+    <Content Include="images\Img0121.jpg" />
+    <Content Include="images\Img0123.jpg" />
+    <Content Include="images\Img0124.jpg" />
+    <Content Include="images\Img0125.jpg" />
+    <Content Include="images\Img0126.jpg" />
+    <Content Include="images\Img0127.jpg" />
+    <Content Include="images\Img0128.jpg" />
+    <Content Include="images\Img0129.jpg" />
+    <Content Include="images\Img0130.jpg" />
+    <Content Include="images\Img0131.jpg" />
+    <Content Include="images\Img0132.jpg" />
+    <Content Include="images\Img0133.jpg" />
+    <Content Include="images\Img0134.jpg" />
+    <Content Include="images\Img0135.jpg" />
+    <Content Include="images\Img0136.jpg" />
+    <Content Include="images\Img0137.jpg" />
+    <Content Include="images\Img0138.jpg" />
+    <Content Include="images\Img0139.jpg" />
+    <Content Include="images\Img0140.jpg" />
+    <Content Include="images\Img0141.jpg" />
+    <Content Include="images\Img0142.jpg" />
+    <Content Include="images\Img0143.jpg" />
+    <Content Include="images\Img0144.jpg" />
+    <Content Include="images\Img0145.jpg" />
+    <Content Include="images\Img0146.jpg" />
+    <Content Include="images\Img0147.jpg" />
+    <Content Include="images\Img0148.jpg" />
+    <Content Include="images\Img0149.jpg" />
+    <Content Include="images\Img0150.jpg" />
+    <Content Include="images\Img0151.jpg" />
+    <Content Include="images\Img0152.jpg" />
+    <Content Include="images\Img0153.jpg" />
+    <Content Include="images\Img0154.jpg" />
+    <Content Include="images\Img0155.jpg" />
+    <Content Include="images\Img0156.jpg" />
+    <Content Include="images\Img0157.jpg" />
+    <Content Include="images\Img0158.jpg" />
+    <Content Include="images\Img0159.jpg" />
+    <Content Include="images\Img0160.jpg" />
+    <Content Include="images\Img0161.jpg" />
+    <Content Include="images\Img0162.jpg" />
+    <Content Include="images\Img0163.jpg" />
+    <Content Include="images\Img0164.jpg" />
+    <Content Include="images\Img0165.jpg" />
+    <Content Include="images\Img0166.jpg" />
+    <Content Include="images\Img0167.jpg" />
+    <Content Include="images\Img0168.jpg" />
+    <Content Include="images\Img0170.jpg" />
+    <Content Include="images\Img0171.jpg" />
+    <Content Include="images\Img0172.jpg" />
+    <Content Include="images\Img0173.jpg" />
+    <Content Include="images\Img0174.jpg" />
+    <Content Include="images\Img0175.jpg" />
+    <Content Include="images\Img0176.jpg" />
+    <Content Include="images\Img0177.jpg" />
+    <Content Include="images\Img0178.jpg" />
+    <Content Include="images\Img0179.jpg" />
+    <Content Include="images\Img0180.jpg" />
+    <Content Include="images\Img0181.jpg" />
+    <Content Include="images\Img0182.jpg" />
+    <Content Include="images\Img0183.jpg" />
+    <Content Include="images\Img0184.jpg" />
+    <Content Include="images\Img0185.jpg" />
+    <Content Include="images\Img0186.jpg" />
+    <Content Include="images\Img0187.jpg" />
+    <Content Include="images\Img0188.jpg" />
+    <Content Include="images\Img0189.jpg" />
+    <Content Include="images\Img0190.jpg" />
+    <Content Include="images\Img0191.jpg" />
+    <Content Include="images\Img0192.jpg" />
+    <Content Include="images\Img0193.jpg" />
+    <Content Include="images\Img0194.jpg" />
+    <Content Include="images\Img0195.jpg" />
+    <Content Include="images\Img0196.jpg" />
+    <Content Include="images\Img0198.jpg" />
+    <Content Include="images\Img0199.jpg" />
+    <Content Include="images\Img0200.jpg" />
+    <Content Include="images\Img0202.jpg" />
+    <Content Include="images\Img0203.jpg" />
+    <Content Include="images\Img0205.jpg" />
+    <Content Include="images\Img0206.jpg" />
+    <Content Include="images\Img0208.jpg" />
+    <Content Include="images\Img0209.jpg" />
+    <Content Include="images\Img0210.jpg" />
+    <Content Include="images\Img0212.jpg" />
+    <Content Include="images\Img0214.jpg" />
+    <Content Include="images\Img0216.jpg" />
+    <Content Include="images\Img0218.jpg" />
+    <Content Include="images\Img0219.jpg" />
+    <Content Include="images\Img0220.jpg" />
+    <Content Include="images\Img0224.jpg" />
+    <Content Include="images\Img0226.jpg" />
+    <Content Include="images\Img0227.jpg" />
+    <Content Include="images\Img0228.jpg" />
+    <Content Include="images\Img0230.jpg" />
+    <Content Include="images\Img0231.jpg" />
+    <Content Include="images\Img0232.jpg" />
+    <Content Include="images\Img0233.jpg" />
+    <Content Include="images\Img0234.jpg" />
+    <Content Include="images\Img0236.jpg" />
+    <Content Include="images\Img0237.jpg" />
+    <Content Include="images\Img0238.jpg" />
+    <Content Include="images\Img0239.jpg" />
+    <Content Include="images\Img0240.jpg" />
+    <Content Include="images\Img0244.jpg" />
+    <Content Include="images\Img0245.jpg" />
+    <Content Include="images\Img0246.jpg" />
+    <Content Include="images\Img0247.jpg" />
+    <Content Include="images\Img0251.jpg" />
+    <Content Include="images\Img0252.jpg" />
+    <Content Include="images\Img0253.jpg" />
+    <Content Include="images\Img0254.jpg" />
+    <Content Include="images\Img0255.jpg" />
+    <Content Include="images\Img0256.jpg" />
+    <Content Include="images\Img0257.jpg" />
+    <Content Include="images\Img0258.jpg" />
+    <Content Include="images\Img0259.jpg" />
+    <Content Include="images\Img0260.jpg" />
+    <Content Include="images\Img0262.jpg" />
+    <Content Include="images\Img0263.jpg" />
+    <Content Include="images\Img0264.jpg" />
+    <Content Include="images\Img0265.jpg" />
+    <Content Include="images\Img0266.jpg" />
+    <Content Include="images\Img0267.jpg" />
+    <Content Include="images\Img0268.jpg" />
+    <Content Include="images\Img0269.jpg" />
+    <Content Include="images\Img0270.jpg" />
+    <Content Include="images\Img0271.jpg" />
+    <Content Include="images\Img0272.jpg" />
+    <Content Include="images\Img0273.jpg" />
+    <Content Include="images\Img0275.jpg" />
+    <Content Include="images\Img0276.jpg" />
+    <Content Include="images\Img0278.jpg" />
+    <Content Include="images\Img0279.jpg" />
+    <Content Include="images\Img0280.jpg" />
+    <Content Include="images\Img0281.jpg" />
+    <Content Include="images\Img0282.jpg" />
+    <Content Include="images\Img0283.jpg" />
+    <Content Include="images\Img0284.jpg" />
+    <Content Include="images\Img0285.jpg" />
+    <Content Include="images\Img0287.jpg" />
+    <Content Include="images\Img0288.jpg" />
+    <Content Include="images\Img0289.jpg" />
+    <Content Include="images\Img0290.jpg" />
+    <Content Include="images\Img0291.jpg" />
+    <Content Include="images\Img0292.jpg" />
+    <Content Include="images\Img0293.jpg" />
+    <Content Include="images\Img0294.jpg" />
+    <Content Include="images\Img0295.jpg" />
+    <Content Include="images\Img0296.jpg" />
+    <Content Include="images\Img0297.jpg" />
+    <Content Include="images\Img0298.jpg" />
+    <Content Include="images\Img0299.jpg" />
+    <Content Include="images\Img0300.jpg" />
+    <Content Include="images\Img0301.jpg" />
+    <Content Include="images\Img0302.jpg" />
+    <Content Include="images\Img0303.jpg" />
+    <Content Include="images\Img0304.jpg" />
+    <Content Include="images\Img0305.jpg" />
+    <Content Include="images\Img0306.jpg" />
+    <Content Include="images\Img0307.jpg" />
+    <Content Include="images\Img0309.jpg" />
+    <Content Include="images\Img0310.jpg" />
+    <Content Include="images\Img0311.jpg" />
+    <Content Include="images\Img0312.jpg" />
+    <Content Include="images\Img0314.jpg" />
+    <Content Include="images\Img0315.jpg" />
+    <Content Include="images\Img0318.jpg" />
+    <Content Include="images\Img0319.jpg" />
+    <Content Include="images\Img0320.jpg" />
+    <Content Include="index.html" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\bootstrap-theme.css.map" />
+    <None Include="js\jquery-1.9.1.intellisense.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-1.9.1.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="paintings.html" />
+    <Content Include="privacy.html" />
+    <Content Include="reviews.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50052</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50052/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

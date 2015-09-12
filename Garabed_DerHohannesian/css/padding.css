@@ -1,0 +1,30 @@
+﻿.garabed_padding_top {
+    padding-top: 25%;
+}
+
+.garabed_padding_bottom {
+    padding-bottom: 25%;
+}
+
+.garabed_padding_left {
+    padding-left: 20px;
+}
+
+.garabed_padding_right {
+    padding-right: 20px;
+}
+
+<!-- -->
+
+.garabed_bio_padding_bottom {
+    padding-bottom: 5%;
+}
+
+.garabed_relative {
+    position:relative;
+}
+
+.garabed_absolute {
+    position: absolute;
+    bottom: 0;
+}
