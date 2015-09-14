@@ -68,8 +68,6 @@
   <ItemGroup>
     <Content Include="blog.html" />
     <Content Include="contact.php" />
-    <Content Include="contact_info.php" />
-    <Content Include="contact_webmaster.php" />
     <Content Include="disclaimer.html" />
     <Content Include="images\slider\Img0058.jpg" />
     <Content Include="images\slider\Img0069.jpg" />
