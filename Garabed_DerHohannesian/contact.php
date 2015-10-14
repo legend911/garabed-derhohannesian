@@ -109,7 +109,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                     <li><a href="biography.html">Biography<span class="sr-only">(current)</span></a></li>
                     <li><a href="paintings.html">Paintings</a></li>
                     <li><a href="reviews.html">Reviews</a></li>
-                    <li><a href="http://garabedderhohannesian.com/blog">Blog</a></li>
+                    <li><a href="blog.php">Blog</a></li>
                     <li class="active"><a href="contact.php">Contact</a></li>
 
                 </ul>
@@ -230,7 +230,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 
             <div class="navbar-text pull-right">
                 <p>
-                    <a href="privacy.html" rel="nofollow" style="color: lightgray; text-decoration: none">Privacy Statement</a>
+                    <a href="privacy.html" rel="nofollow" style="color: lightgray; text-decoration: none">Privacy</a>
                     |
                     <a href="disclaimer.html" rel="nofollow" style="color: lightgray; text-decoration: none">Disclaimer</a>
                 </p>

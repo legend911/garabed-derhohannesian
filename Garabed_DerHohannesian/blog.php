@@ -4,6 +4,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/padding.css" rel="stylesheet" />
     <link href="css/img.css" rel="stylesheet" />
+    <link href="css/blog.css" rel="stylesheet" />
     <title>Garabed DerHohannesian</title>
     <meta charset="utf-8" />
 </head>
@@ -35,11 +36,28 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <h1>Disclaimer</h1>
-                <p>
-                    The disclaimer is coming soon!
-                </p>
+            <div class="col-sm-8">
+                <h1>Blog - <a href="http://garabedderhohannesian.com/blog/wp-login.php"  class="btn btn-primary">Admin Login</a></h1>
+                                
+                <div class="blog">
+                    <?php
+                    require('blog/wp-blog-header.php');
+                    ?>
+
+                    <?php
+                    $posts = get_posts('numberposts=10&order=ASC&orderby=post_date');
+                    foreach ($posts as $post) : setup_postdata( $post ); ?>
+                    <div class="date"><?php the_date(); echo "<br />"; ?></div>
+                    <div class="title"><?php the_title(); ?></div>   
+                    <div><?php the_excerpt(); ?></div>
+                    <?php
+                    endforeach;
+                    ?>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                
             </div>
         </div>
     </div>

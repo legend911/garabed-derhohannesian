@@ -66,7 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="blog.php" />
     <Content Include="contact.php" />
+    <Content Include="css\blog.css" />
     <Content Include="disclaimer.html" />
     <Content Include="images\slider\Img0058.jpg" />
     <Content Include="images\slider\Img0069.jpg" />
