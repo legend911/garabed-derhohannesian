@@ -224,7 +224,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         <div class="container">
             <div class="navbar-text pull-left">
                 <p>
-                    Copyright ©2015 GarabedDerHohannesian.com | by Dwight Norris | All Rights Reserved
+                    Copyright ©2016 GarabedDerHohannesian.com | by Dwight Norris | All Rights Reserved
                 </p>
             </div>
 

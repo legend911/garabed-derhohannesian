@@ -37,7 +37,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
-                <h1>Blog - <a href="http://garabedderhohannesian.com/blog/wp-login.php"  class="btn btn-primary">Admin Login</a></h1>
+                <h1 class="text-center">Blog - <a href="blog/wp-login.php" class="btn btn-primary">Admin Login</a></h1>
                                 
                 <div class="blog">
                     <?php
@@ -45,14 +45,14 @@
                     ?>
 
                     <?php
-                    $posts = get_posts('numberposts=10&order=ASC&orderby=post_date');
-                    foreach ($posts as $post) : setup_postdata( $post ); ?>
-                    <div class="date"><?php the_date(); echo "<br />"; ?></div>
-                    <div class="title"><?php the_title(); ?></div>   
-                    <div><?php the_excerpt(); ?></div>
-                    <?php
-                    endforeach;
-                    ?>
+					$posts = get_posts('numberposts=10');
+					foreach ($posts as $post) : setup_postdata( $post ); ?>
+					<div class="date"><?php the_date(); echo "<br />"; ?></div>
+					<div class="title"><?php the_title(); ?></div>
+					<?php the_content(); ?> 
+					<?php
+					endforeach;
+					?>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@
         <div class="container">
             <div class="navbar-text pull-left">
                 <p>
-                    Copyright ©2015 GarabedDerHohannesian.com | by Dwight Norris | All Rights Reserved
+                    Copyright ©2016 GarabedDerHohannesian.com | by Dwight Norris | All Rights Reserved
                 </p>
             </div>
 
