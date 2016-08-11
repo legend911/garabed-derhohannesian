@@ -1,0 +1,14 @@
+﻿.garabed_image {max-width:100%}
+
+img {
+    max-height: 20em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+

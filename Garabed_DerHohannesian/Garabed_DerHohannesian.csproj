@@ -43,6 +43,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Facebook.CSSLayout, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Facebook.CSSLayout.1.1.1\lib\portable-net45+dnxcore50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Facebook.CSSLayout.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -69,6 +73,7 @@
     <Content Include="blog.php" />
     <Content Include="contact.php" />
     <Content Include="css\blog.css" />
+    <Content Include="css\img2.css" />
     <Content Include="disclaimer.html" />
     <Content Include="images\slider\Img0058.jpg" />
     <Content Include="images\slider\Img0069.jpg" />
@@ -315,6 +320,7 @@
     <Content Include="images\thumbs\thumb_Img0318.jpg" />
     <Content Include="images\thumbs\thumb_Img0319.jpg" />
     <Content Include="images\thumbs\thumb_Img0320.jpg" />
+    <Content Include="js\images.js" />
     <Content Include="packages.config" />
     <Content Include="js\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
@@ -585,7 +591,7 @@
     <Content Include="paintings-3.html" />
     <Content Include="paintings-4.html" />
     <Content Include="paintings-5.html" />
-    <Content Include="paintings.html" />
+    <Content Include="paintings-test.html" />
     <Content Include="privacy.html" />
     <Content Include="reviews.html" />
     <Content Include="Web.config" />
